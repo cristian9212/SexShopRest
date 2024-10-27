@@ -26,4 +26,48 @@ public class Disfraces {
         this.stock = stock;
         return this;
     }
+
+    public UUID idDisfras() {
+        return idDisfras;
+    }
+
+    public Disfraces setIdDisfras(UUID idDisfras) {
+        this.idDisfras = idDisfras;
+        return this;
+    }
+    public String nombreDisfras() {
+        return nombreDisfras;
+    }
+
+    public Disfraces setNombreDisfras(String nombreDisfras) {
+        this.nombreDisfras = nombreDisfras;
+        return this;
+    }
+
+    public String tipoDisfras() {
+        return tipoDisfras;
+    }
+
+    public Disfraces setTipoDisfras(String tipoDisfras) {
+        this.tipoDisfras = tipoDisfras;
+        return this;
+    }
+
+    public int precio() {
+        return precio;
+    }
+
+    public Disfraces setPrecio(int precio) {
+        this.precio = precio;
+        return this;
+    }
+
+    public int stock() {
+        return stock;
+    }
+
+    public Disfraces setStock(int stock) {
+        this.stock = stock;
+        return this;
+    }
 }
