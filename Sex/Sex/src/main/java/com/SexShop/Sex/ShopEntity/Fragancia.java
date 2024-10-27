@@ -1,5 +1,6 @@
 package com.SexShop.Sex.ShopEntity;
 
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.UUID;
@@ -9,8 +10,12 @@ import java.util.UUID;
 @AllArgsConstructor
 @Getter
 @Setter
+@Entity
+@Table(name = "fragancia")
 public class Fragancia {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID idFrangancia;
     private String nombreFragancia;
     private String tipoFragancia;
